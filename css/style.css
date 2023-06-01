@@ -487,10 +487,6 @@ textarea {
     justify-content: center;
     padding: 30px 0;
 }
-.copyrights span {
-    color: var(--violet-color);
-    font-size: 1.8rem;
-}
 .menu {
     display: none;
 }
@@ -528,14 +524,14 @@ textarea {
         row-gap: 2rem;
         position: absolute;
         top: 0;
-        right: -200%;
+        left: -200%;
         transition: 0.5s;
         border-bottom-right-radius: 50%;
         border-bottom-left-radius: 50%;
         z-index: 3;
     }
     .show {
-        right: -90px;
+        left: -90px;
     }
     .main-container {
         flex-direction: column;
@@ -543,9 +539,6 @@ textarea {
         align-items: center;
         margin-top: 50px;
         row-gap: 4rem;
-    }
-    .landing-page {
-        overflow: hidden;
     }
     .card {
         width: 100%;
